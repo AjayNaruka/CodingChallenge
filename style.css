@@ -1,0 +1,64 @@
+body{
+  /*resize image to fit 16:9 proportion*/
+  background-image: url("background.jpg");
+  background-size:cover;
+    }
+  .container{
+    width:1200px;
+    height:900px;
+    background-color: rgba(0,0,0,0.5);
+    margin:auto;
+    border-radius: 30px;
+    padding-top: 100px;
+  }
+  #logo{
+    display: block;
+    margin:auto;
+    padding-top: 1%;
+    width:25%;
+    height:auto;
+
+  }
+  #title{
+    color:RGB(73, 251, 53);
+    font-family: Arial;
+    text-align: center;
+  }
+  nav{
+    width:80%;
+    height:50px;
+    background-color: RGB(73, 251, 53);
+    margin:auto;
+
+  }
+  .buttons{
+    width:50%;
+    margin:auto;
+    text-align: center;
+    padding-top: 15px;
+  }
+  main{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    font-family: Arial;
+    color:white;
+  }
+  .charge1{
+    width:30%;
+    height: 35px;
+    background-color: orange;
+    border-radius:7px;
+  }
+  .charge2{
+    width:70%;
+    height: 35px;
+    background-color: RGB(73, 251, 53);
+    border-radius:7px;
+  }
+  .charge3{
+    width:10%;
+    height: 35px;
+    background-color: red;
+    border-radius:7px;
+  }
